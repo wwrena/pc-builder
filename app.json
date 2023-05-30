@@ -1,0 +1,35 @@
+{
+    "expo": {
+        "name": "PC builder",
+        "slug": "switchblade",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#121212"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.teikukuheia.switchblade"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/icon.png",
+                "backgroundColor": "#121212"
+            },
+            "package": "com.teikukuheia.switchblade"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "23c378c2-a4f1-4f75-b87d-c7b4247d1c5b"
+            }
+        },
+        "owner": "teikukuheia"
+    }
+}
